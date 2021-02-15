@@ -1,0 +1,24 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<h1 style="text-align:center; width:60%" >My Chess Journey</h1>
+<p style="font-size:1.3em">I started playing chess at the age of 6. It was my mother who taught me how to move my pieces, and my grandfather who taught me the basics of the game. I started taking formal coaching and I was taught by the finest coaches in Delhi, including FM, FIDE Trainer, FM Prasenjit Dutta</p>
+<div class="row" style=" display:table; clear:both;">
+  <div class="column"  style="float:left;width:50%;padding:10px;">
+<p style="font-size:1.3em"> My Achievements: </p>
+
+  <li>Commonwealth Chess Championship 2017-7th place.</li>
+  <li> Haryana State under-19 runners up 2019 </li>
+  <li> Haryana State Open runners up 2018 </li>
+  <li> Asian Schools Chess Championship </li>
+  <li> Philadelphia International 2018 </li>
+  <br><br><br><br><br>
+<a style="font-size:1.7em"> Follow me online: <a style="font-size:1.7em" href="https://www.chess.com/member/taiatai">Chess.com</a> and <a style="font-size:1.7em" href="https://lichess.org/@/aadit1709">Lichess  </a></div>
+
+<div class="column"  style="float:left;width:50%;padding:10px;">
+
+ {% load static %} <img src="{% static "images/matrix.jpg" %}" alt="Aadit Bhatia Chess" width="50%" height="300" style="float:right;  border:2px solid black">
+ {% load static %} <img src="{% static "images/dcachess.jpg" %}" alt="Aadit Bhatia Chess" width="50%" height="300" style="float: right;  border:2px solid black">
+</div>
+</div>
+{% endblock %}

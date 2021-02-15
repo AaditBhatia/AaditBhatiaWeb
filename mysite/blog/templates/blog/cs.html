@@ -1,0 +1,38 @@
+
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+<div class="centerer">
+  <h1>My Computer Science Projects</h1>
+  <div class="row" style=" display:table; clear:both;">
+    <div class="column"  style="float:left;width:50%;padding:10px;">
+
+  <div class="wrap">
+    <a class="btn-0" >aaditbhatia.com:
+     <p> By integrating programming languages like Java, Python, JavaScript, HTML and CSS, with the Django web framework, I was able to build aaditbhatia.com- A personal website which would tell employeers all about me and also provide an opportunity for anyone to blog for free </p></a>
+    <a class="btn-1" >Song Library Project:
+    <p> Developed methods in a subclass that utilize superclass functionality, work with file I/O, developed code that makes essential use of a data structures, and gained experience working with ArrayLists.</p></a>
+  </div>
+  <div class="wrap">
+
+
+    <a class="btn-10" ><span>Snap,Crackle,Pop project:
+    <p>used loops and conditionals together to create varied output, used operators to have certain events happen at regularized intervals, and worked with multi-file Java projects </p></span></a>
+    <a class="btn-11" >Connect four:
+    <p> Made a connect-four game using JQuery, HTML and CSS, Bootstrap and JavaScript</p></a>
+  </div>
+  </div>
+  <div class="column" style="float:left;width:50%;padding:10px;">
+  {% load static %} <img src="{% static "images/java.png" %}" alt="java" width="40%" height="150" style="float: right;  border:2px solid black">
+  {% load static %} <img src="{% static "images/htmlcss.jpg" %}" alt="htmlcss" width="40%" height="150" style="float: right;  border:2px solid black">
+  {% load static %} <img src="{% static "images/python.jpg" %}" alt="python" width="40%" height="150" style="float: right;  border:2px solid black">
+  {% load static %} <img src="{% static "images/django.png" %}" alt="django" width="40%" height="150" style="float: right;  border:2px solid black">
+  {% load static %} <img src="{% static "images/js.png" %}" alt="javascript" width="40%" height="150" style="float: right;  border:2px solid black">
+  {% load static %} <img src="{% static "images/apachespark.png" %}" alt="Apache Spark" width="40%" height="150" style="float: right;  border:2px solid black">
+  </div>
+</div>
+
+
+
+{% endblock %}

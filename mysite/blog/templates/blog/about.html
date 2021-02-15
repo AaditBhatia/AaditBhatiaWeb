@@ -1,0 +1,14 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<h1 style="text-align:center; width:60%; font-family: 'Roboto Slab', serif;" >About me</h1>
+<div class="row" style=" display:table; clear:both;">
+  <div class="column"  style="float:left;width:50%;padding:10px;">
+<p style="font-size:1.2em">Hello! I am a student studying at the University of Massachusetts Amherst, and I am pursuing a major in computer science along with a minor in physics. I was born in India and have completed my high school education from The Shri Ram School, Aravali. I am a part of the prestigious Commonwealth Honors College, and a member of the Integrated Concentration in Science Program. I am an analytical person who believes that research, science and technology will solve most problems we face. Solving perplexing problems for the betterment of humanity drives my academic passion. I am a person who always gets the job done, and I am ready to work earnestly to achieve my goals. I have an interest in AI and Machine Learning and I have joined clubs in my university in those fields. Being a chess player who has represented his country, I am extremely detail-oriented and I know plentiful about time management, resourcefullness and planning strategically to achieve my goals. My self-learned programing skills are a testament of my quick learning abilities. My hobbies include playing tennis, writting stand-up comedies, watching F1 racing and reading.</p></div>
+<div class="column" style="float:left;width:50%;padding:10px;">
+
+ {% load static %} <img src="{% static "images/cer.jpg" %}" alt="CERN" width="50%" height="300" style="float: right;  border:2px solid black">
+ {% load static %} <img src="{% static "images/umass.png" %}" alt="UMass Amherst" width="50%" height="300" style="float: right;  border:2px solid black"></div>
+</div>
+
+{% endblock %}
